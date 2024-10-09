@@ -26,24 +26,25 @@
         <![endif]-->
     <h1>Island Snow</h1>
 
-    <div class="container">
-        <nav class="navbar bg-light">
+
+    <nav class="navbar bg-light">
+        <div class="container">
             <ul class="nav">
-                <i class="p-1 bi-facebook"></i>
-                <i class="p-1 bi-twitter"></i>
-                <i class="p-1 bi-pinterest"></i>
-                <i class="p-1 bi-instagram"></i>
+                <li><i class="p-1 bi-facebook"></i></li>
+                <li><i class="p-1 bi-twitter"></i></li>
+                <li><i class="p-1 bi-pinterest"></i></li>
+                <li><i class="p-1 bi-instagram"></i></li>
             </ul>
             <ul class="nav justify-content-end">
-                <i class="p-1 bi-house-fill"></i>
-                <i class="p-1 bi-search"></i>
-                <i class="p-1 bi-person-fill"></i>
-                <i class="p-1 bi-cart"></i>
+                <li><i class="p-1 bi-house-fill"></i></li>
+                <li><i class="p-1 bi-search"></i></li>
+                <li><i class="p-1 bi-person-fill"></i></li>
+                <li><i class="p-1 bi-cart"></i></li>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         0
-                    </button>
+                    </div>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="#"></a></li>
                         <li><a class="dropdown-item" href="#"></a></li>
@@ -51,38 +52,42 @@
                     </ul>
                 </div>
             </ul>
-        </nav>
-    </div>
+
+        </div>
+    </nav>
 
 
-    <div class="row">
+    <div class="row mx-auto">
         <div class="col">
             <img class="img-fluid rounded mx-auto d-block py-1"
                 src="https://courses.ics.hawaii.edu/ics314f24/morea/ui-frameworks/experience-islandsnow-bootstrap-logo.png">
         </div>
 
         <div class="container">
-            <div class="navbar bg-light">
-                <ul class="row">
-                    <button class="col justify-content-center btn btn-secondary dropdown-toggle" type="button"
-                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="navbar bg-white">
+                <!-- px-1 a hack for mx-auto's poor margins -->
+                <ul class="row px-1 mx-auto">
+                    <div class="col dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         Men
-                    </button>
-                    <button class="col justify-content-center btn btn-secondary dropdown-toggle" type="button"
-                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    </div>
+                    <div class="col dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         Women
-                    </button>
-                    <button class="col justify-content-center btn btn-secondary dropdown-toggle" type="button"
-                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    </div>
+                    <div class="col dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         Kids
-                    </button>
-                    <button class="col justify-content-center btn btn-secondary dropdown-toggle" type="button"
-                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    </div>
+                    <div class="col dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         Brands
-                    </button>
-                    <button class="col justify-content-center btn btn-secondary" type="button" id="dropdownMenuButton1">
+                    </div>
+                    <div class="col justify-content-center" type="button" id="dropdownMenuButton1">
                         Search
-                    </button>
+                    </div>
+
+
                 </ul>
             </div>
         </div>
